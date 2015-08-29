@@ -1,0 +1,32 @@
+{
+  "name": "constant-keys",
+  "version": "0.0.1",
+  "description": "Utility to create an object with keys whose values match the keys. Useful for things like using constants to name events, actions etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/babel-node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robinmbarnes/constant-keys.git"
+  },
+  "keywords": [
+    "constants",
+    "react",
+    "keys"
+  ],
+  "author": "Robin Barnes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinmbarnes/constant-keys/issues"
+  },
+  "homepage": "https://github.com/robinmbarnes/constant-keys",
+  "dependencies": {
+    "keymirror": "^0.1.1",
+    "ramda": "^0.17.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "tape": "^4.2.0"
+  }
+}
