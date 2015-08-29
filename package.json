@@ -13,7 +13,8 @@
   "keywords": [
     "constants",
     "react",
-    "keys"
+    "keys",
+    "flux"
   ],
   "author": "Robin Barnes",
   "license": "ISC",
