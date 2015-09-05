@@ -1,6 +1,6 @@
 {
   "name": "constant-keys",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utility to create an object with keys whose values match the keys. Useful for things like using constants to name events, actions etc",
   "main": "index.js",
   "scripts": {
@@ -29,5 +29,10 @@
   "devDependencies": {
     "babel": "^5.8.23",
     "tape": "^4.2.0"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
   }
 }
